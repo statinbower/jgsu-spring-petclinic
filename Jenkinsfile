@@ -9,7 +9,7 @@ pipeline {
                 // Get some code from a GitHub repository
                 git branch: 'main', credentialsId: '61f055ec-da2a-4c63-9d24-f0991dedf02d', url: 'https://github.com/statinbower/jgsu-spring-petclinic.git'
 
-                // // Run Maven on a Unix agent.
+                // // Run Maven on a Unix agent.  
                 // sh "mvn -Dmaven.test.failure.ignore=true clean package"
 
                 // // To run Maven on a Windows agent, use
